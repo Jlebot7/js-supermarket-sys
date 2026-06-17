@@ -1,19 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Supermercado</title>
     <script src="main.js" defer></script>
-  </head>
-  <body>
-    <h1>Supermercado JS 🛒</h1>
-
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
     <div class="container">
-      <div id="productosLista" class="productos-grid"></div>
-      <div id="carritoLista" class="carrito-items"></div>
-    </div>
-  </body>
-</html>
+        <h1>🛒 Sistema de Supermercado</h1>
 
+        <h2>Productos Disponibles</h2>
+        <div id="productosLista" class="productos-grid"></div>
+
+        <hr>
+
+        <h2>Carrito de Compras</h2>
+        <div id="carritoLista" class="carrito-items"></div>
+
+        <div class="totales">
+            <p>Productos en carrito: <span id="totalCantidad">0</span></p>
+            <p>Precio total: $<span id="totalPrecio">0.00</span></p>
+        </div>
+
+        <button id="limpiarCarrito">Limpiar Carrito</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
