@@ -85,14 +85,54 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
-  background: white;
+  gap: 12px;
+  padding: 12px 14px;
+  background: #fff;
   margin-bottom: 10px;
-  border-radius: 4px;
-  border-left: 4px solid #437066;
+  border-radius: 10px;
+  border-left: 5px solid #437066;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.carrito-item .item-emoji {
+  font-size: 20px;
+  min-width: 28px;
+  text-align: center;
 }
 
 .carrito-item-info {
   flex: 1;
 }
+
+.carrito-item-nombre {
+  font-weight: 700;
+  color: #24373a;
+  margin-bottom: 2px;
+}
+
+.carrito-item-precio {
+  color: #437066;
+  font-weight: 600;
+}
+
+.carrito-items .totales {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 2px dashed #d6e2e2;
+  display: grid;
+  gap: 6px;
+  justify-items: start;
+}
+
+.carrito-items .totales p {
+  margin: 0;
+  color: #24373a;
+  font-weight: 600;
+}
+
+.carrito-items .totales span {
+  color: #437066;
+  font-weight: 800;
+}
+
 

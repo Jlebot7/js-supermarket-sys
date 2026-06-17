@@ -43,14 +43,25 @@ function actualizarCarrito() {
     lista.innerHTML = "";
     let sumaTotal = 0;
 
-    carrito.forEach((item, index) => {
-        lista.innerHTML += `<p>${item.nombre} - $${item.precio.toFixed(2)}</p>`;
+    carrito.forEach((item) => {
+        const emoji = item.emoji || "🛒";
         sumaTotal += item.precio;
+
+        lista.innerHTML += `
+            <div class="carrito-item">
+                <div class="item-emoji" aria-hidden="true">${emoji}</div>
+                <div class="carrito-item-info">
+                    <div class="carrito-item-nombre">${item.nombre}</div>
+                    <div class="carrito-item-precio">$${item.precio.toFixed(2)}</div>
+                </div>
+            </div>
+        `;
     });
 
     spanTotalPrecio.innerText = sumaTotal.toFixed(2);
     spanTotalCantidad.innerText = carrito.length;
 }
+
 
 function limpiarCarrito() {
     carrito = [];

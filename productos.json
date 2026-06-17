@@ -1,11 +1,12 @@
 [
-  { "id": 1, "nombre": "Manzanas", "precio": 2.50, "categoria": "Frutas" },
-  { "id": 2, "nombre": "Leche", "precio": 3.20, "categoria": "Lácteos" },
-  { "id": 3, "nombre": "Pan", "precio": 1.80, "categoria": "Panadería" },
-  { "id": 4, "nombre": "Queso", "precio": 5.00, "categoria": "Lácteos" },
-  { "id": 5, "nombre": "Tomates", "precio": 2.00, "categoria": "Verduras" },
-  { "id": 6, "nombre": "Huevos", "precio": 4.50, "categoria": "Lácteos" },
-  { "id": 7, "nombre": "Arroz", "precio": 3.00, "categoria": "Granos" },
-  { "id": 8, "nombre": "Aceite", "precio": 6.00, "categoria": "Aceites" }
+  { "id": 1, "nombre": "Manzanas", "precio": 2.50, "categoria": "Frutas", "emoji": "🍎" },
+  { "id": 2, "nombre": "Leche", "precio": 3.20, "categoria": "Lácteos", "emoji": "🥛" },
+  { "id": 3, "nombre": "Pan", "precio": 1.80, "categoria": "Panadería", "emoji": "🍞" },
+  { "id": 4, "nombre": "Queso", "precio": 5.00, "categoria": "Lácteos", "emoji": "🧀" },
+  { "id": 5, "nombre": "Tomates", "precio": 2.00, "categoria": "Verduras", "emoji": "🍅" },
+  { "id": 6, "nombre": "Huevos", "precio": 4.50, "categoria": "Lácteos", "emoji": "🥚" },
+  { "id": 7, "nombre": "Arroz", "precio": 3.00, "categoria": "Granos", "emoji": "🍚" },
+  { "id": 8, "nombre": "Aceite", "precio": 6.00, "categoria": "Aceites", "emoji": "🫒" }
 ]
+
 
